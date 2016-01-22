@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/build/intermediates/res/merged/debug/menu/left_tabs_menu.xml",
+        "source": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/src/main/res/menu/left_tabs_menu.xml"
+    },
+    {
         "merged": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/build/intermediates/res/merged/debug/menu/menu_display_posts.xml",
         "source": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/src/main/res/menu/menu_display_posts.xml"
+    },
+    {
+        "merged": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/build/intermediates/res/merged/debug/menu/activity_left_tabs_menu_drawer.xml",
+        "source": "/Users/GabrielMechali/Desktop/UCSD/Winter15Proj/MyApp/app/src/main/res/menu/activity_left_tabs_menu_drawer.xml"
     }
 ]

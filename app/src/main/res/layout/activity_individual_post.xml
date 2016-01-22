@@ -6,26 +6,34 @@
     android:background="@android:color/transparent"
     android:padding="@dimen/activity_vertical_margin">
     <TableLayout>
+        <TableRow>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Post Title"
-            android:layout_span="2"
-            android:layout_weight="0.07"
             android:textColor="@color/black"
             android:textIsSelectable="true"
             android:id="@+id/stockSymbolTextView" />
+
+
+            <TextView
+                android:id="@+id/priceLabel"
+                android:layout_width="wrap_content"
+                android:text="Price_label"
+                android:paddingLeft="150dp"
+                />
+
+            <TextView
+                android:id="@+id/price"
+                android:text="28$"
+                android:layout_column="13"
+                android:paddingLeft="20dp"/>
+        </TableRow>
         <TextView
             android:text="POST DESCRIPTION"
-            android:layout_height="60dp"/>
-        <TextView
-            android:id="@+id/priceLabel"
-            android:layout_width="wrap_content"
-            android:text="Price_label"
-                />
-        <TextView
-            android:id="@+id/price"
-            android:text="28$"/>
+            android:layout_height="45dp"
+            android:layout_width="222dp" />
+
 
     </TableLayout>
 </TableRow>
